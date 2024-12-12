@@ -1,0 +1,11 @@
+server:
+  port: 9553
+spring:
+  application: sprsec
+  security:
+    user:
+      name: rajesh
+      password: rajesh
+logging:
+  level:
+    org.springframework.security: TRACE
